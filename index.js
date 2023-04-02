@@ -44,5 +44,6 @@ process.on('SIGTERM', () => {
   logger.info('Caught SIGTERM.');
   logger.flush();
 });
+//
 
 main();
